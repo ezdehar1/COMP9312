@@ -15,7 +15,7 @@ def conll_to_segments(filename):
     :return: list[[tuple]] - [[(token, tag), (token, tag), ...], [(token, tag), ...]]
     """
     segments, segment = list(), list()
-
+    print(filename)
     with open(filename, "r",encoding='utf-16', errors='ignore') as fh:
         for token in fh.read().splitlines():
             if not token:
