@@ -16,7 +16,7 @@ def conll_to_segments(filename):
     """
     segments, segment = list(), list()
     print(filename)
-    with open(filename, "r",encoding='utf-16', errors='ignore') as fh:
+    with open(filename, "r") as fh:
         for token in fh.read().splitlines():
             if (not len(token)):
                 print(token)
