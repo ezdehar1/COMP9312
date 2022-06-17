@@ -16,10 +16,10 @@ def conll_to_segments(filename):
     """
     segments, segment = list(), list()
     print(filename)
-    with open(filename, "r") as fh:
+    with open(filename, "r",encoding="UTF-16LE",errors="ignore") as fh:
         for token in fh.read().splitlines():
-          parts = token.split()
-            if (parts[0]=='\'):
+            parts = token.split()
+            if (parts[0]=='\\'):
                 print(token)
                 segments.append(segment)
                 segment = list()
