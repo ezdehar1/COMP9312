@@ -697,6 +697,7 @@
 الاسرائيلي	I-ORG
 المسؤول	O
 في	O
+\
 """"	B-ORG
 كتائب	I-ORG
 شهداء	I-ORG
@@ -707,6 +708,7 @@
 """"	I-ORG
 فتح	I-ORG
 """"	I-ORG
+\
 محمد	B-PERSON
 رائد	I-PERSON
 الكرمي	I-PERSON
