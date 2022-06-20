@@ -20,7 +20,7 @@ def conll_to_segments(filename):
         temp=""
         for token in fh.read().splitlines():
             parts = token.split()
-            print(parts)
+            #print(parts)
             temp=parts
             if (parts[0]=='\\'):
                 #print(token)
