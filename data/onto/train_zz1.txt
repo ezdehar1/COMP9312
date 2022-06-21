@@ -22256,6 +22256,7 @@
 في	I-PERCENT
 المئة	I-PERCENT
 مقابل	O
+\
 3.63	B-PERCENT
 في	I-PERCENT
 المئة	I-PERCENT
@@ -22271,7 +22272,6 @@
 المصدر	O
 .	O
 1998	B-DATE
-	O
 1990	B-DATE
 (	O
 8	O
